@@ -2,10 +2,10 @@
 
 * [🐈‍⬛ Hiiii](README.md)
 
-## Getting Started
+## Cheat sheet
 
-* [Quickstart](getting-started/quickstart.md)
-* [Publish your docs](getting-started/publish-your-docs.md)
+* [Quickstart](cheat-sheet/quickstart.md)
+* [Publish your docs](cheat-sheet/publish-your-docs.md)
 
 ## Basics
 
