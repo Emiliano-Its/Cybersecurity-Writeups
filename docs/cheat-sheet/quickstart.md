@@ -1,19 +1,5 @@
 ---
 icon: bolt
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 metaLinks:
   alternates:
     - https://app.gitbook.com/s/yE16Xb3IemPxJWydtPOj/getting-started/quickstart
@@ -26,7 +12,7 @@ metaLinks:
 Beautiful documentation starts with the content you create — and GitBook makes it easy to get started with any pre-existing content.
 
 {% hint style="info" %}
-Want to learn about writing content from scratch? Head to the [Basics](../basics/editor.md) section to learn more.
+Want to learn about writing content from scratch? Head to the [Basics](../labs/editor.md) section to learn more.
 {% endhint %}
 
 ### Import
