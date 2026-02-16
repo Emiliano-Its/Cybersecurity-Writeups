@@ -9,7 +9,8 @@
 
 ## Labs
 
-* [Footprinting Lab -Medium](labs/footprinting-lab-medium.md)
+* [Skills Assessment - Information Gathering (Web Edition)](labs/skills-assessment-information-gathering-web-edition.md)
+* [Footprinting Lab - Medium](labs/footprinting-lab-medium.md)
 * [Editor](labs/editor.md)
 * [Markdown](labs/markdown.md)
 * [Images & media](labs/images-and-media.md)

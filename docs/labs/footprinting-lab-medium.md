@@ -1,4 +1,4 @@
-# Footprinting Lab -Medium
+# Footprinting Lab - Medium
 
 So, the next information is gives to us:
 
@@ -8,7 +8,7 @@ So, the next information is gives to us:
 
 Let's start for scann all the ports in the machine:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 So, we can see that a well-known port promt to us when we make a scan, its the 2049: NFS - its purpose is to access file systems over a network as if they were local.
 
@@ -20,4 +20,4 @@ Now, dive into the functionality of these services. Based in this [article](http
 
 when we try to interact with the rpc server we got this:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
