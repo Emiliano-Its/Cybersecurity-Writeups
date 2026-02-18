@@ -20,7 +20,7 @@ Now, dive into the functionality of these services. Based in this [article](http
 
 when we try to interact with the rpc server we got this:
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 And when we mount with the following commands:
 
@@ -34,4 +34,24 @@ Valemiliano@htb[/htb]$ tree .
 we can see this:
 
 <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+And when we check the only file that seems to have information by its size, we can look at the following log:
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+we obtained a bunch of interesting information by this log:
+
+Host: smtp.web.dev.inlanefreight.htb
+
+port=25
+
+USER: alex
+
+password: lol123!mD
+
+from="alex.g@web.dev.inlanefreight.htb"
+
+And some extra information about smtp server config file. Just in case, i decide to scan the ports that in our initial scann appear like unknown:
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 

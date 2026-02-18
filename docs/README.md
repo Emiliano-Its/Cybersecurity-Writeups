@@ -1,10 +1,11 @@
 ---
+icon: bat
 metaLinks:
   alternates:
     - https://app.gitbook.com/s/yE16Xb3IemPxJWydtPOj/
 ---
 
-# 🌕 Hiiii
+# Hiiii
 
 Hiii, i made this Gitbook with the goal to documente all my learning process in cybersecurity, this blog seves as cheat sheet and some documentation for several labs that i completed in several platafforms, mainly Hack the Box. Any suggest is accepted :)
 

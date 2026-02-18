@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🌕 Hiiii](README.md)
+* [Hiiii](README.md)
 
 ## Cheat sheet
 

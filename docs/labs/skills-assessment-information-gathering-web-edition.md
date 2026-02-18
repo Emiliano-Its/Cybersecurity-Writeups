@@ -40,7 +40,7 @@ Let's start.&#x20;
 
 We use whois tool for this one:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 > _<mark style="color:$info;">**Answer: 468**</mark>_
 
@@ -56,7 +56,7 @@ First, we have to edit the /etc/hosts file adding the next line in the end with 
 
 And then we can use the curl tool with the -I option to see the headers:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > _<mark style="color:$info;">**Answer: nginx**</mark>_
 
@@ -88,7 +88,7 @@ We have the admin directory now. And when we acces to: <mark style="color:blue;"
 
 We see the next results:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 > _**Answer: e963d863ee0e82ba7080fbf558ca0d3f**_
 
