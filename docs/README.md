@@ -6,7 +6,7 @@ metaLinks:
 
 # 🌕 Hiiii
 
-Hiii, i made this Github with the goal to documente all my learning process in cybersecurity, this blog seves as cheat sheet and some documentation for several labs that i completed in several platafforms, mainly Hack the Box. Any suggest is accepted :)
+Hiii, i made this Gitbook with the goal to documente all my learning process in cybersecurity, this blog seves as cheat sheet and some documentation for several labs that i completed in several platafforms, mainly Hack the Box. Any suggest is accepted :)
 
 ### Jump right in
 
