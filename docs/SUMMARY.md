@@ -9,7 +9,7 @@
 
 ## Labs
 
-* [Page 1](labs/page-1.md)
+* [Attacking Common Services - Easy](labs/attacking-common-services-easy.md)
 * [Skills Assessment - Information Gathering (Web Edition)](labs/skills-assessment-information-gathering-web-edition.md)
 * [Footprinting Lab - Medium](labs/footprinting-lab-medium.md)
 * [Editor](labs/editor.md)
