@@ -40,7 +40,7 @@ Let's start.&#x20;
 
 We use whois tool for this one:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 > _<mark style="color:$info;">**Answer: 468**</mark>_
 
@@ -56,7 +56,7 @@ First, we have to edit the /etc/hosts file adding the next line in the end with 
 
 And then we can use the curl tool with the -I option to see the headers:
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > _<mark style="color:$info;">**Answer: nginx**</mark>_
 
@@ -88,7 +88,7 @@ We have the admin directory now. And when we acces to: <mark style="color:blue;"
 
 We see the next results:
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 > _**Answer: e963d863ee0e82ba7080fbf558ca0d3f**_
 
@@ -100,21 +100,21 @@ First we brute force another one time the vhost in url <mark style="color:blue;"
 
 And we have the following results:
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Now, we can use the ReconSpider.py script for crawl the web page:
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 And then, see the results from the .json file generated:
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 > _**Answer: 1337testing@inlanefreight.htb**_
 
 To finish, in the last question is requested an API key that the developers will be changing. The key is in the same .json fle:
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 > _**Answer: ba988b835be4aa97d068941dc852ff33**_
 

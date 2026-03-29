@@ -8,7 +8,7 @@ To begin we can gather the following information provided to us:
 
 Let's start for scann all the ports in the machine:
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 So, we can see that a well-known port promt to us when we make a scan, its the 2049: NFS - its purpose is to access file systems over a network as if they were local.
 
@@ -20,7 +20,7 @@ Now, dive into the functionality of these services. Based in this [article](http
 
 when we try to interact with the rpc server we got this:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 And when we mount with the following commands:
 
@@ -33,11 +33,11 @@ Valemiliano@htb[/htb]$ tree .
 
 we can see this:
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 And when we check the only file that seems to have information by its size, we can look at the following log:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 we obtained a bunch of interesting information by this log:
 
@@ -53,31 +53,31 @@ from="alex.g@web.dev.inlanefreight.htb"
 
 And some extra information about smtp server config file. Just in case, i decide to scan the ports that in our initial scann appear like unknown:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
 I don't see any interesting here. Let's try to use the credentials we found in the different kind of services. First we are going to try with smb service:
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 Mmm, maybe if we try by this way:
 
-<div data-full-width="true"><figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="true"><figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 
 
 And we can also interact with spcclient:&#x20;
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 I got notice that we can list all the sharenames that are available executing the following command:
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 Then we can see what is within this share:
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 Content of important.txt:
 
@@ -87,7 +87,7 @@ It seems to be another credentials, trying with diferent services avalilable in 
 
 Fail attempts:
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
