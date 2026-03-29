@@ -2,12 +2,12 @@
 description: >-
   This lab is described as an internal server (within the inlanefreight.htb
   domain) that manages and stores emails and files and serves as a backup of
-  some of the company's processes. From internal con
+  some of the company's processes.
 ---
 
 # Attacking Common Services - Medium
 
-It is required to asses de target server and find the falg.txt file.
+From internal conversations, we heard that this is used relatively rarely and, in most cases, has only been used for testing purposes so far. It is required to asses de target server and find the falg.txt file.
 
 Start scannig the target with nmap.
 
