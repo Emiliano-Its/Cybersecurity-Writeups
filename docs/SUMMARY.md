@@ -11,6 +11,7 @@
 
 * [Attacking Common Services - Easy](labs/attacking-common-services-easy.md)
 * [Attacking Common Services - Medium](labs/attacking-common-services-medium.md)
+* [Attacking Common Services - Hard](labs/attacking-common-services-hard.md)
 * [Skills Assessment - Information Gathering (Web Edition)](labs/skills-assessment-information-gathering-web-edition.md)
 * [Footprinting Lab - Medium](labs/footprinting-lab-medium.md)
 * [Editor](labs/editor.md)
