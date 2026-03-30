@@ -88,6 +88,6 @@ We found flag.txt
 
 <figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
 
-Answer: HTB{46u$!n9\_l!nk3d\_$3rv3r$}
+> Answer: HTB{46u$!n9\_l!nk3d\_$3rv3r$}
 
 Yei!!
