@@ -6,7 +6,7 @@ To begin we can gather the following information provided to us:
 * We need to obtain the credentials of this user as proof.
 * We have to analyze a new service
 
-Let's start for scann all the ports in the machine:
+Let's start for scan all the ports in the machine:
 
 <figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 

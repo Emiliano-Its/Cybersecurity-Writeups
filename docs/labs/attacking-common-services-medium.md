@@ -51,7 +51,7 @@ And trying to access with these credetentials:
 
 <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-Content of flag.txt:
+Content of flag.txt file:
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
